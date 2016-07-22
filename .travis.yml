@@ -1,7 +1,10 @@
 language: python
 python:
-  - "3.4.4"
+- 3.4.4
 install:
-  - "pip install ."
+- pip install .
 script:
-  - "python setup.py test"
+- python setup.py test
+env:
+  global:
+    secure: l3SyI0K3EYadJX1b1fSSz5QREFeWcEedh7PLr6241HPNMTB68cQwyL+dMSF4XJEP+sXUFd7x5wQxRSLXoredpLiFBob5pc8SEH6FmgVp+7vrFbYTqc1tf8qI9K3r24mAI8iqbwHFLPTkH1skVm3Gq7yGzfItbbyIIjPS1EiIIqpG34sPOiDA+H+HbWGP4M50Xp1xDufdqpjQgHBJ+uwToA7UijPWhUFjRsnuhveExmvXLVurgTBrmJ1S0YrWcufb7MG7wed6a/upvslw6L2CSFk20tMOHgAS3a8E0E8q4SbY0kw9z0GpCw/8K42yKI6QhTlc6u2ssKdpN5WWUqPCPPb/zU6F2wtZtf7PGt971yMbcRBicB/Nrw73DnMkYRyOlJuq0sLdmmD6A6qfyeq7XsUNU2l7KgpuzdBNJCNhRq9GU8zPBnfB6aIaJUykqEhPU8s8c4sv9sIVBEkbkK6qydZTxCz4/k99vRLQRlYJ7C/holxJOroCXounSo9a1bE9Sy1JYhQNhYnzWlQb9EIuUjx3Aa6C0230bPydTIl/l8gMqSiOFjR3UEJHT90GLrP7oArbVSFUxm13mqrhriN3MPnp0CDRasmugdYUirflKsV3DRONPBRzr2SepxdP1PgNdtQqOxsVlk185mmLv9ftlxcU0L+SmqM04ozcvkuUN9E=
